@@ -72,7 +72,9 @@ demo.launch(share=True)
 ```
 ### OUTPUT:
 
-<img width="1152" height="625" alt="image" src="https://github.com/user-attachments/assets/f8095804-45bc-4c07-9fa7-b3c06a770d0e" />
+
+![Screenshot 2025-11-14 113501](https://github.com/user-attachments/assets/dd83fbd5-745f-4e9f-9c7c-633e8e2b1d3f)
+
 
 ### RESULT:
 The prototype image captioning application using the BLIP model and Gradio framework was successfully developed and deployed, generating accurate captions for uploaded images.
