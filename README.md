@@ -63,14 +63,16 @@ demo = gr.Interface(
     outputs=gr.Textbox(label="Generated Caption"),
     title="🖼️ Image Captioning with BLIP",
     description="Upload any image (like cat.png) and generate an AI-based caption using the BLIP model.",
-    allow_flagging="never"
+    allow_flagging="never",
+    examples=["cat.jpg"]
 )
 
 demo.launch(share=True)
 
 ```
 ### OUTPUT:
-<img width="1166" height="624" alt="image" src="https://github.com/user-attachments/assets/c6e038e8-d6bc-4ae5-863f-2bcae05145a3" />
+
+<img width="1152" height="625" alt="image" src="https://github.com/user-attachments/assets/f8095804-45bc-4c07-9fa7-b3c06a770d0e" />
 
 ### RESULT:
 The prototype image captioning application using the BLIP model and Gradio framework was successfully developed and deployed, generating accurate captions for uploaded images.
